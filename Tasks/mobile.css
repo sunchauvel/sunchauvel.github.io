@@ -1,0 +1,1564 @@
+@media (max-width: 780px) { /* 菜单栏  检查页部分 */
+  .originFile {
+    margin-top: 52px;
+  }
+  .taskForWork{
+    top: 80px;
+  }
+  .todoWrapper .weekbtn{
+    right: -10px;
+  }
+  .resource{
+    padding: 50px 20px 20px;
+  }
+  .addCollectUrlBtn{
+    top: 71px;
+  }
+  /* 菜单栏 */
+  .menu.more {
+    height: 96px;
+  }
+
+  .menu.more .progress-outer {
+    display: none;
+  }
+
+  .menu .menu-left {
+    display: none;
+  }
+
+  .menu.more .menu-left {
+    display: block;
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 54px;
+    width: calc(100vw + 10px);
+    text-align: left;
+  }
+
+  .simplebtn {
+    margin-right: 10px;
+  }
+
+  .moremenubtn {
+    display: block;
+    z-index: 100;
+    position: fixed;
+    left: 92px;
+    top: 16px;
+    width: 22px;
+    height: 22px;
+    line-height: 19px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--forbtncolor);
+    border: 1px solid var(--nextcolor-deep);
+    border-radius: 50%;
+  }
+  .moremenubtn::after{
+    display: block;
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid var(--forbtncolor);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+  }
+
+  .moremenubtn.active {
+    transform: rotateZ(180deg);
+  }
+
+  .starbtn.handstand-heart {
+    visibility: visible;
+  }
+
+  .collectjumpbtn {
+    margin-top: 64px;
+  }
+  
+
+  /* 检查页部分 */
+  .analyseContent h3.titleTxt{
+    font-size: 14px;
+  }
+  .todoArea .searchTask {
+    left: 80px;
+    width: calc(100% - 160px);
+  }
+
+  .todoWrapper .todoCon {
+    margin-left: 0;
+    margin-right: 200px;
+    width: calc(100% - 202px);
+  }
+
+  .todoArea .thoughtTip {
+    right: 10px;
+  }
+
+  .todoWrapper .daymenu {
+    right: -4px;
+  }
+  .oneclip .thoughtTip {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 760px) { /* 启动页3*/
+
+  .taskType {
+    margin-top: 46px;
+  }
+
+  .taskType,
+  .taskSkill {
+    margin-left: 34px;
+  }
+
+  
+  .taskTypeItems,
+  .taskSkillItems {
+    width: calc(100% - 92px);
+    margin-left: 62px;
+  }
+
+  
+  .singleLine>.oneline {
+    margin-left: 34px;
+  }
+
+  .btnLine #tips {
+    right: 2px;
+  }
+
+  .busyouter {
+    top: 120px;
+    width: 314px;
+    right: 166px;
+    height: 52px;
+    padding: 4px 6px 4px 30px;
+  }
+
+  .busyouter::before {
+    font-size: 12px;
+  }
+
+  .busyouter::after {
+    transform: rotateZ(-42deg);
+    bottom: 20px;
+    right: -6px;
+  }
+
+  .busytime .justATime {
+    margin-right: 4px;
+    font-size: 12px;
+  }
+
+  .taskContent .easylink {
+    right: unset;
+    left: calc(50% - 186px);
+  }
+  
+  .singleLine .numpart{
+    margin-left: 0;
+    width: calc(100% - 54px);
+  }
+  .singleLine input{
+    width: 160px;
+  }
+
+}
+
+@media (max-width: 740px) { /* 中间弹窗 */
+
+  /* 中间弹窗 */
+  .section .easylink{
+    width: 24px;
+    height: 24px;
+  }
+  .section .title{
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  
+  .questionsection p{
+    font-size: 12px;
+  }
+  .morepart-notebox{
+    display: none;
+  }
+  .morefunpart {
+    left: 0;
+    width: 100vw;
+    min-width: unset;
+  }
+
+  .morepart-wrapper {
+    width: 100%;
+    height: 102%;
+  }
+
+  .morepart-content {
+    height: 100%;
+  }
+
+  .morepart-wrapper .section {
+    padding: 72px 52px 30px;
+  }
+
+  .write .closetipbtn,
+  .morepart-wrapper .closetipbtn{
+    width: 42px;
+    height: 42px;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .write .closetipbtn{
+    bottom: -21px;
+  }
+  .morepart-wrapper .closetipbtn {
+    top: 60px;
+    right: 10px;
+  }
+
+ .collectsection .rightside {
+    top: 146px;
+  }
+
+
+
+  .tagsection .tagsearch,
+  .tagstatus {
+    width: calc(100% - 96px);
+    margin-left: 90px;
+  }
+
+  .tagfind .tagsearch {
+    padding: 6px 84px 6px 12px;
+  }
+
+  .tagfind .tagmakebtn {
+    right: 6%;
+    margin-right: -24px;
+  }
+
+  .tagsection .tagmenu {
+    top: 280px;
+    left: 42px;
+  }
+
+  .tagsection .tagContent {
+    margin: 12px 6px 20px 96px;
+  }
+
+
+  .tagCon-wrapper .tagDownload {
+    width: calc(100% - 96px);
+  }
+
+  .tagsection .control {
+    top: 252px;
+    right: 66px;
+  }
+
+  .quesnav {
+    top: 220px;
+    left: 56px;
+  }
+
+  .quesCon-wrapper {
+    margin-left: 26px;
+    width: calc(100% - 26px);
+  }
+  
+}
+
+@media (max-width: 720px) { /* 启动页4*/
+  .start .timer {
+    right: 126px;
+  }
+
+  .flyline {
+    right: 157px;
+  }
+
+  .meetinghouse {
+    right: 30px;
+  }
+
+  .busyouter {
+    right: 190px;
+  }
+  .updownbtn{
+    margin-left: 7px;
+  }
+}
+
+@media (max-width: 666px) { /* 中间弹窗 设置面板 书写框 侧边栏 侧边菜单 主编辑页 帮助页 检查页适配 */
+  .weekbtn span{
+    margin: 0 6px;
+  }
+  .write .writingplace{
+    left:0;
+    width: 100%;
+    height: calc(100% - 56px);
+  }
+  .settingpart span:hover{
+    background-color: #47454b;
+  }
+  .analyseBtn .starbtn{
+    display: inline-block;
+  }
+  .analyseArea .tipclosebtn{
+    display: block;
+  }
+  .towritebtn:hover .writebtn::after{
+    border-top-color: var(--forbtncolor);
+  }
+  .towritebtn .writebtn:hover{
+    margin-left: unset;
+    transform: none;
+  }
+  .flyline .stopTimerBtn:hover{
+    background-color: var(--btncolor);
+  }
+  .slideBox p:hover {
+    color: var(--forbtncolor);
+    background-color: inherit;
+  }
+  
+  .searchControl span:hover{
+    color: var(--fontcolor);
+    background-color: unset;
+  }
+  .searchControl span.active{
+    color: var(--forbtncolor);
+    background-color: var(--themecolor);
+  }
+  .taskForWork,
+  .taskContent{
+    width: 100vw;
+  }
+  
+  .regularpart .deletebtn{
+    background-color: var(--maincolor);
+    border-color: var(--themecolor);
+  }
+  .regularpart .writebtn{
+    border-color: var(--themecolor);
+    transform: rotateZ(66deg);
+  }
+  .jumpbtn{
+    display: none;
+    margin: 7px 5%;
+  }
+  .asidemenu.show .jumpbtn{
+    display: inline-block;
+  }
+  .singleLine .numpart{
+    min-width: 438px;
+  }
+  .singleLine .numpart input{
+    width: 112px;
+  }
+  /* 中间弹窗 */
+  .section .title{
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .collectsection .title{
+    margin-bottom: 0;
+  }
+  .morepart-wrapper .section {
+    padding: 72px 30px 30px;
+  }
+  .collectouter{
+    margin-bottom: 46px;
+    width: 100%;
+    min-height: calc(100vh - 200px);
+    height: 460px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .collectsection .rightside {
+    position: relative;
+    top: 48px;
+    right: unset;
+    left: 466px;
+    padding: 40px 32px 0 32px;
+    width: 260px;
+    height: 380px;
+  }
+  
+  .rightside .cardecor {
+    left: 82px;
+  }
+  
+  .collectsection .collectUl-wrapper {
+    top: -360px;
+    margin: 0 30px 36px;
+    width: calc(100% - 372px);
+    min-width: 328px;
+    height: calc(100% - 66px);
+    min-height: 360px;
+  }
+  
+  
+  .tagsection .tagfind{
+    margin-top: 22px;
+  }
+  .tagsection .tagsearch,
+  .tagstatus {
+    width: 100%;
+    margin-left: 0;
+  }
+  .tagsection .tagCon-wrapper {
+    margin-bottom: 46px;
+    margin-top: 8px;
+  }
+  
+  .tagfind .tagmakebtn {
+    right: 0;
+    margin-right: 8px;
+  }
+  
+  .tagsection .tagmenu {
+    left: 0;
+    top: 240px;
+  }
+  
+  .tagsection .control{
+    right: 40px;
+    top: 238px;
+  }
+  
+  .tagCon-wrapper .tagDownload {
+    margin: 0;
+    width: calc(100% - 66px);
+    left: 80px;
+  }
+
+  
+  .quesnav {
+    left: 8px;
+  }
+  .quesmenuitem{
+    margin: 8px 0;
+  }
+  .quesCon-wrapper {
+    margin-left: unset;
+    width: 100%;
+    margin-bottom: 46px;
+  }
+  
+  /* 设置 */
+  .setting {
+    width: 100%;
+    padding: 40px 30px 50px;
+  }
+
+  .piece .firstCon input {
+    margin: 4px 8px 8px;
+    min-width: 164px;
+    max-width: 70%;
+    width: calc(52% - 50px);
+  }
+
+  .firstCon div:nth-of-type(3) input {
+    width: calc(50% - 60px);
+    min-width: calc(50% - 60px);
+  }
+
+  .settingpart .piece b {
+    margin-bottom: 6px;
+    line-height: 20px;
+  }
+
+  .piece div.noUnderline span {
+    margin-top: 8px;
+  }
+
+  
+
+  .piece .thirdCon>div {
+    width: calc(100% - 40px);
+  }
+
+  .piece .thirdCon .themeline,
+  .piece .thirdCon .searchModeline {
+    width: 100%;
+  }
+
+  .thirdCon .restartbtn {
+    right: -48px;
+  }
+
+  .settingback .closetipbtn {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+  }
+  .settingback:hover .closetipbtn, 
+  .settingback .closetipbtn:hover{
+    transform: translateX(-50%);
+  }
+
+  /* 输入 */
+  .write {
+    height: 54%;
+  }
+
+  .write .closetipbtn {
+    left: 9px;
+    right: unset;
+  }
+
+  .write textarea {
+    margin-top: 24px;
+    margin-left: 18%;
+    width: 64%;
+    padding: 12px;
+  }
+
+  .write .writeboxTips {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .write .circlebtn {
+    font-size: 12px;
+  }
+
+  .write .btns .circlebtn:nth-child(1),
+  .write .btns .circlebtn:nth-child(11) {
+    top: -184px;
+  }
+
+  .write .btns .circlebtn:nth-child(8),
+  .write .btns .circlebtn:nth-child(10),
+  .write .btns .circlebtn:nth-child(18){
+    top: -152px;
+  }
+
+  .write .btns .circlebtn:nth-child(9),
+  .write .btns .circlebtn:nth-child(16) {
+    top: -120px;
+  }
+
+  .write .btns .circlebtn:nth-child(15),
+  .write .btns .circlebtn:nth-child(17) {
+    top: -88px;
+  }
+
+  /* 侧边栏 */
+  .clearall{
+    opacity: 1;
+  }
+  .aside.fixed .toRightBtn.fixedbtn,
+  .main .toRightFixbtn,
+  .main.active .toRightBtn.bigger{
+    display: none;
+  }
+  .aside .toRightBtn.smaller.active{
+    display: block;
+  }
+  .aside:hover .toRightBtn.smaller,
+  .aside:hover .toRightBtn.fixedbtn{
+    display: none;
+  }
+  .aside.fixed .toRightBtn.smaller{
+    display: block;
+  }
+  .main .toRightFixbtn {
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: 43px;
+    right: -2px;
+  }
+  .main.active .toRightFixbtn{
+    top: -40px;
+  }
+
+  /* 侧边菜单*/
+  .asidemenu{
+    top: unset;
+    bottom: 0;
+    width: 24px;
+    height: 46px;
+    background-color: rgba(72,69,73,.8);
+  }
+ 
+  .asidemenu.show {
+    width: 100vw;
+  }
+
+ .toshowmenu {
+    display: block;
+    box-sizing: border-box;
+    z-index: 10;
+    position: absolute;
+    left: 8px;
+    top: 7px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: var(--forbtncolor);
+    border-radius: 50%;
+    background-color: var(--nextcolor-light);
+  }
+
+  
+
+  .totopbtn,
+  .towritebtn {
+    display: none;
+  }
+
+ /* .towritebtn {
+    bottom: calc(24% + 160px);
+    right: 8px;
+  }
+ */
+  
+
+  /* 主 */
+  body {
+    max-width: 100vw;
+    width: 100vw;
+    min-width: unset;
+    overflow-x: hidden;
+  }
+
+  .aside {
+    display: none;
+  }
+
+  .onepart,
+  .main,
+  .main .bodybg {
+    margin-left: 0;
+    width: 100vw;
+    min-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .aside .header {
+    margin-top: 32px;
+  }
+
+  .aside .controlers {
+    top: 94px;
+  }
+
+  .aside.fixed .aside-content {
+    height: calc(100% - 122px);
+  }
+
+  .main-wrapper {
+    box-sizing: border-box;
+    min-width: 100vw;
+    max-width: 100vw;
+    /* margin-left: 8px; */
+  }
+
+  .topInput .simpleWriteBox {
+    padding-right: 124px;
+    width: calc(100% - 86px);
+  }
+  .searchControl{
+    margin-left: 55px;
+  }
+  .topInput .addfunbtns {
+    right: 40px;
+  }
+
+
+  .topInput .buttonline {
+    width: 90%;
+  }
+
+  .content .header {
+    margin: 10px 0 40px;
+  }
+
+  
+
+  .originFile .simplebtn {
+    margin-top: 6px;
+  }
+
+  /* 帮助页 */
+  .book {
+    padding: 0;
+  }
+
+  .book-outer .bookmenu,
+  .book-outer .menustayback {
+    width: 52px;
+    font-size: 12px;
+  }
+
+  .book-outer .bookCon {
+    left: 52px;
+    width: calc(100% - 52px);
+  }
+
+  .bookmenu li {
+    padding: 10px 2px;
+  }
+
+  .book-outer.big .bookCon {
+    left: 0;
+    width: 100%;
+  }
+
+  .bookCon .txtpart.refreshpart {
+    padding-top: 52px;
+  }
+
+  /* 检查 */
+  .check-content .datamenu {
+    top: 20px;
+  }
+
+  .check-content .easylink {
+    top: 42px;
+  }
+
+  .check-content .datadetail {
+    overflow-x: scroll;
+  }
+
+
+  .datadetail .oneclip {
+    left: 0;
+    width: 100%;
+    min-width: calc(100% + 180px);
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+  .oneclip .delbtn {
+    top: 0;
+    width: 56px;
+    height: 52px;
+    line-height: 52px;
+  }
+
+  .datadetail .analyseArea {
+    padding: 96px 10px 66px 20px;
+  }
+
+  .datadetail .memoryArea {
+    min-width: 100%;
+  }
+
+  .memoryArea .contentHiddenBtn {
+    top: 62px;
+  }
+
+  .toseeMemory {
+    top: 52px;
+  }
+
+  .analyseArea .analyseBtn {
+    top: 100px;
+    left: 20px;
+  }
+
+  .analyseBtn .starStatus {
+    top: -36px;
+    left: -14px;
+  }
+
+  .analyseBtn .starStatus::before {
+    right: 70px;
+    bottom: -6px;
+    border-bottom: none;
+    border-top: 6px solid var(--fourthcolor);
+    border-right: 2px solid transparent;
+    border-left: 8px solid transparent;
+  }
+
+  .analyseContent b::after {
+    left: 101px;
+  }
+
+  .analyseContent .percent {
+    left: -60px;
+  }
+
+  .analyseContent::after {
+    left: 122px;
+  }
+
+  .analyseContent::before {
+    left: 130px;
+  }
+
+  .oneclip .thoughtTip {
+    left: 196px;
+    width: calc(100% - 206px);
+  }
+
+  .todoWrapper .daymenu {
+    width: 166px;
+  }
+
+  .todoArea .thoughtTip {
+    left: unset;
+    width: 170px;
+    font-size: 12px;
+  }
+
+  .todoWrapper .todoCon {
+    width: calc(100% - 182px);
+  }
+
+  
+
+  .searchTask input {
+    padding: 6px 36px 6px 116px;
+    width: 266px;
+  }
+
+  .searchTask .letterbtn {
+    right: unset;
+    left: 390px;
+  }
+
+  .searchTask .searchbtn {
+    right: unset;
+    left: 420px;
+  }
+}
+
+
+@media (max-width: 594px) { /* 12号字体  书写框2 定期任务-菜单 启动页签到5*/
+  .menu .circlebtn, .menu .settingbtn{
+    margin-top: 15px;
+  }
+  .moremenubtn{
+    box-sizing: border-box;
+    top: 15px;
+  }
+  .moremenubtn::after{
+    left: 4px;
+    top: 6px;
+  }
+  .simplebtn,
+  .menu-left .timeStatus,
+  .menu .settingbtn,
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder,
+  .check .check-header,
+  .taskContent,
+  .dakaUl,
+  .tagCon-wrapper,
+  .tagdownBtn,
+  .main .tips,
+  .circlebtn,
+  .controlers label,
+  .referLink,
+  .urlsection .tip,
+  .originFile b,
+  .originFile input,
+  .inoutControl,
+  .periodCount{
+    font-size: 12px;
+  }
+  .inoutControl span{
+    line-height: 17px;
+  }
+  .part .controlers{
+    top: -40px;
+    line-height: 17px;
+    opacity: 1;
+  }
+  .part .controlers label{
+    position: relative;
+    top: 0;
+    line-height: 17px;
+  }
+  .part .controlers input{
+    line-height: 17px;
+  }
+  .todoArea .searchTask {
+    left: 20px;
+  }
+  .tagsection .tagContent {
+    margin: 12px 6px 20px 66px;
+  }
+  .tagCon-wrapper .tagDownload{
+    left: 70px;
+  }
+  .tagsection .tagmenu{
+    width: 80px;
+  }
+  .tagdownBtn{
+    padding: 2px 8px;
+  }
+  .check-header .datamonth {
+    left: calc(100% - 240px);
+  }
+
+  .book-header .share_box {
+    padding: 14px 18px;
+  }
+
+  .taskContent .easylink {
+    left: calc(50% - 166px);
+    top: 68px;
+  }
+
+  /* 签到 */
+  .mianContent .daka {
+    left: calc(50% - 166px);
+  }
+
+  .mianContent .daka b {
+    padding: 0 9px;
+    font-size: 18px;
+  }
+
+  .daka span::after {
+    right: -24px;
+    border-bottom-width: 41px;
+  }
+
+  .daka span {
+    border-bottom-width: 14px;
+    border-left-width: 18px;
+    border-right-width: 18px;
+  }
+
+  .slideBox {
+    width: 100vw;
+  }
+
+  .slideBox.active {
+    top: 136px;
+  }
+
+  .firstLine .writeIn {
+    margin: 4px auto;
+    width: calc(80% - 50px);
+    min-width: 218px;
+  }
+
+  .dayCheck .dakaUl {
+    width: calc(100% - 40px);
+  }
+
+  .dayCheck .addItemBtn {
+    margin: 10px;
+  }
+
+  .dayCheck li span,
+  .dayCheck .itemMenu span {
+    margin: 4px 8px;
+    min-width: 64px;
+    width: calc(32% - 12px);
+  }
+
+  .dakaUl li,
+  .dayCheck .itemMenu {
+    min-width: 330px;
+    width: calc(100vw - 40px);
+  }
+
+  .slideBox .days {
+    top: 66px;
+    left: 70px;
+    width: 66%;
+  }
+
+  .dayCheck .firstLine {
+    margin-top: 94px;
+    text-align: center;
+  }
+
+  .slideBox .chart {
+    width: 100%;
+  }
+
+  .canvas-wrapper {
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding-right: 30px;
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  /* 启动页 */
+  
+  .singleLine>.oneline,
+  .taskSkill,
+  .taskType {
+    margin-left: 66px;
+  }
+   
+  .singleLine .numpart {
+    margin-left: 58px;
+    padding: 2px 2px 10px;
+    width: calc(100% - 124px);
+    min-width: 368px;
+  }
+  
+  #allTaskData {
+    width: calc(100vw - 170px);
+    height: 220px;
+  }
+
+  .maincon-wrapper {
+    width: calc(100vw - 40px);
+    min-width: unset;
+  }
+
+ 
+  .taskTypeItems,
+  .taskSkillItems {
+    width: calc(100% - 164px);
+  }
+
+  .taskType label,
+  .taskSkill label {
+    line-height: 20px;
+  }
+
+  .singleLine input {
+    width: 138px;
+  }
+  
+  #taskLevel {
+    margin-right: 6px;
+  }
+
+  #taskPTime {
+    width: 56px;
+  }
+
+ 
+  .btnLine .dataSTNoteBtn {
+    margin-right: 106vw;
+  }
+
+  .btnLine #tips {
+    right: unset;
+    left: 0;
+    width: calc(100vw - 134px);
+  }
+
+  .meetinghouse {
+    right: -2px;
+  }
+
+  .start .timer {
+    right: 106px;
+  }
+
+  .flyline {
+    right: 137px;
+  }
+
+  .busyouter {
+    width: 228px;
+    right: 164px;
+  }
+
+
+  /* 输入 */
+  .write .btns .circlebtn:nth-child(15),
+  .write .btns .circlebtn:nth-child(11) {
+    width: 48px;
+  }
+
+  .write .btns .circlebtn:nth-child(10) {
+    width: 80px;
+  }
+
+  /*定期任务提醒*/
+  .menu-left .taskwarn.show {
+    width: 10px;
+    height: 16px;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 6px;
+    vertical-align: text-top;
+    overflow: hidden;
+  }
+
+  .menu.more .menu-left {
+    margin-left: -16px;
+  }
+
+  .simplebtn {
+    margin-right: 4px;
+  }
+  .menu.more{
+    height: 93px;
+  }
+}
+
+@media(max-width: 540px){
+  .firstCon .odotype,
+  .firstCon .obetterway {
+    max-width: 14em;
+  }
+  .itemsection>p{
+    margin: 10px;
+  }
+  .itemStatus{
+    margin: 32px 0 18px;
+  }
+  .itemCon-wrapper p{
+    margin-left: 10px;
+  }
+  .itemCon-wrapper ul{
+    padding: 4px 10px 10px;
+  }
+  .urlsection .partDl input{
+    width: 140px;
+  }
+  /* 启动 */
+  .taskContent .easylink {
+    top: 68px;
+    left: unset;
+    right: calc(50% - 162px);
+  }
+  .taskContent .updownbtn {
+    margin-left: 4px;
+  }
+  .singleLine .numpart{
+    width: 368px;
+  }
+  .mianContent .daka {
+    left: 50px;
+  }
+  
+  #taskLevel {
+    width: 64px;
+  }
+  
+
+  
+  .start .timer {
+    right: unset;
+    left: 52px;
+  }
+  
+  .flyline {
+    right: unset;
+    left: 21px;
+  }
+  
+  .meetinghouse {
+    right: unset;
+    left: 3px;
+  }
+  
+  .busyouter {
+    right: unset;
+    top: 116px;
+    left: 168px;
+    width: 142px;
+  }
+  
+  .busyouter::after {
+    bottom: 12px;
+    right: unset;
+    left: -6px;
+    background-color: var(--btncolor);
+    border-bottom: 1px solid var(--btncolor);
+    transform: rotateZ(50deg);
+  }
+}
+
+@media (max-width: 520px) { /*  检查头文本宽度 */
+  .piece .firstCon input{
+    width: 126px;
+    min-width: unset;
+  }
+  .firstCon .odotype,
+  .firstCon .obetterway{
+    max-width: 11em;
+  }
+  .inoutControl input{
+    width: 70px;
+  }
+  .searchTask input{
+    min-width: 152px;
+    width: calc(100% - 253px);
+  }
+  .searchTask .letterbtn{
+    left: calc(100% - 130px) ;
+  }
+  .searchTask .searchbtn{
+    left: calc(100% - 100px) ;
+  }
+  .regularpart .controlers{
+    width: 40px;
+  }
+  .regularpart .deletebtn{
+    margin-top: 12px;
+  }
+  
+  .txtpart .regularpart span.item{
+    min-height: 70px;
+    padding-right: 40px;
+  }
+  .datatext {
+    width: 120px;
+  }
+  .helptxt{
+    margin-top: 20px;
+  }
+  .questionsection p {
+    width: calc(100% - 32px);
+    text-align: left;
+    margin-left: 16px;
+  }
+ 
+  .topInput .simpleWriteBox {
+    width: calc(100% - 36px);
+  }
+  .searchControl{
+    margin-left: 28px;
+  }
+  .topInput .addfunbtns {
+    right: 14px;
+  }
+}
+
+@media (max-width: 476px){
+  .part .controlers label{
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 460px){
+  .firstCon div:nth-of-type(2) input{
+    width: 182px;
+  }
+  .logo{
+    left: -10px;
+  }
+  .periodCount{
+    background-color: var(--maincolor);
+  }
+  .originFile input{
+    width: 200px;
+  }
+  .collectsection .collectUl-wrapper {
+    margin: 0 0 36px;
+    min-width: 290px;
+  }
+    
+  .collectsection .rightside{
+    left: 420px;
+    padding-top: 32px;
+  }
+ 
+ 
+  .urlsection .partDl{
+    width: 100%;
+  }
+  .urlsection .partDl input{
+    margin-left: 0;
+    width: calc(100% - 94px);
+  }
+  .urlsection .partDl dd{
+    text-align: left;
+  }
+  .urlsection .urlUl{
+    position: relative;
+    top: 0;
+    left: 10px;
+    right: unset;
+    max-width: calc(100% - 30px);
+    width: unset;
+    height: unset;
+    min-height: 52px;
+  }
+  .urlsection .urlUl li{
+    display: inline-block;
+    min-width: 60px;
+    width: unset;
+  }
+  
+  /* 启动页左移 */
+  .singleLine>.oneline,
+  .taskSkill,
+  .taskType {
+    margin-left: 9px;
+  }
+   
+  .singleLine .numpart {
+    margin-left: 0;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .numpart .formdelBtn {
+    right: 36px;
+  }
+  
+  #allTaskData {
+    width: calc(100vw - 100px);
+  }
+  
+  .btnLine #tips {
+    width: calc(100vw - 68px);
+  }
+}
+
+@media(max-width: 440px){
+  .firstCon .odotype,
+  .firstCon .obetterway {
+    max-width: 15em;
+  }
+  .firstCon div:nth-of-type(1) input,
+  .firstCon div:nth-of-type(4) input{
+    width: 188px;
+  }
+}
+
+@media (max-width: 420px) {
+  .quesCon-wrapper{
+    height: calc(100% - 200px);
+  }
+  .quesnav {
+    top: 230px;
+  }
+  .quesmenuitem{
+    margin: 4px 0;
+  }
+}
+@media (max-width: 414px) {
+  .topInput .buttonline label,
+  .toknewbtn{
+    min-width: 16px;
+    font-size: 12px;
+    vertical-align: sub;
+  }
+  .quesCon-wrapper{
+    margin-left: 10px;
+    width: calc(100% - 10px);
+  }
+  .inoutControl input{
+    width: 60px;
+    font-size: 12px;
+  }
+  .taskTypeItems, .taskSkillItems {
+    width: calc(100% - 260px);
+  }
+  /* 中间弹窗 */
+  
+  .morepart-wrapper .section{
+    padding: 72px 20px 30px;
+  }
+  
+  .tagsection .tagfind{
+    margin-top: 18px;
+  }
+  .tagsection .tagmenu{
+    width: 70px;
+    font-size: 12px;
+  }
+  .tagmenujumpline u{
+    width: 18px;
+  }
+  .tagmenu .tagmenujumpline,
+  .tagmenujumpline u::after{
+    left: 2px;
+  }
+  .tagmenu .downloadnowbtn{
+    width: 56px;
+    margin-left: 8px;
+  }
+  .tagsection .tagContent{
+    margin-left: 62px;
+  }
+  .tagCon-wrapper .tagDownload{
+    left: 62px;
+    width: calc(100% - 64px);
+    padding-top: 24px;
+  }
+  
+  .menu.more .menu-left {
+    margin-left: -26px;
+  }
+
+  .aside.fixed {
+    display: block;
+    width: 348px;
+  }
+
+
+  .book-outer .bookCon {
+    padding: 40px 20px;
+  }
+
+ 
+
+  /* 检查页头部 */
+  .datatext {
+    width: 246px;
+  }
+
+  .check .check-header {
+    margin-top: 52px;
+    min-height: 288px;
+  }
+
+  .datatext {
+    top: 16px;
+    left: calc(50% - 120px);
+  }
+
+  .check-header .datamonth {
+    top: 90px;
+    left: calc(50% - 124px);
+    width: 246px;
+  }
+
+  .check-header .header-back {
+    background-size: 250% 156%;
+    background-position: center 0;
+  }
+
+  .check .check-content {
+    padding-top: 32px;
+  }
+
+  .check-content .easylink {
+    top: 22px;
+  }
+
+  /* 输入 */
+  .write .btns .circlebtn:nth-child(18) {
+    width: 42px;
+  }
+
+  .write .btns .circlebtn:nth-child(10) {
+    width: 46px;
+    top: -162px;
+  }
+
+  .write .btns .circlebtn:nth-child(11) {
+    top: -188px;
+  }
+
+  
+}
+
+@media (max-width: 400px) {
+  .quesCon-wrapper{
+    height: calc(100% - 220px);
+  }
+  .quesnav {
+    top: 278px;
+  }
+  
+}
+@media (max-width: 384px){
+  .firstCon div:nth-of-type(1) input,
+  .firstCon div:nth-of-type(4) input{
+    width: 182px;
+  }
+  .searchTask .letterbtn{
+    left: 274px;
+  }
+  .searchTask .searchbtn{
+    left: 304px;
+  }
+  
+}
+
+@media (max-width: 374px){
+  .firstCon .odotype,
+  .firstCon .obetterway{
+    max-width: 11em;
+  }
+  .piece div.firstCon input{
+    width: 124px;
+    min-width: unset;
+  }
+  .piece .firstCon div:nth-of-type(3) input{
+    width: 136px;
+  }
+  .write{
+    height: 74%;
+  }
+  .write .btns .circlebtn:nth-child(1),
+  .write .btns .circlebtn:nth-child(16),
+  .write .btns .circlebtn:nth-child(17){
+    width: 25px;
+  }
+  .write .btns .circlebtn:nth-child(8),
+  .write .btns .circlebtn:nth-child(9){
+    width: 36px;
+  }
+  
+  .dayCheck .firstLine{
+    padding: 10px 18px;
+  }
+  
+  .firstLine .writeIn{
+    min-width: 188px;
+  }
+  .dayCheck li span, 
+  .dayCheck .itemMenu span{
+    width: calc(32% - 26px);
+  }
+  .dayCheck .itemMenu{
+    margin-left: 9px;
+  }
+  .dayCheck .dakaUl{
+    padding: 10px 9px 20px;
+  }
+  .dakaUl li,
+  .dayCheck .itemMenu{
+    min-width: 294px;
+  }
+  
+  .singleLine .numpart input {
+    width: 90px;
+  }
+ 
+  .numpart .formdelBtn {
+    right: 72px;
+  }
+  .aside.fixed {
+    width: 300px;
+  }
+
+  .analyseArea .knowfirst{
+    width: calc(100vw - 42px);
+  }
+}
+@media (max-width: 344px) {
+  .menu.on .listbtn {
+    display: none;
+  }
+  .piece .firstCon div:nth-of-type(3) input{
+    width: 124px;
+  }
+  .moremenubtn{
+    left: 78px;
+  }
+  .menu-left .taskwarn.show{
+    position: fixed;
+    left: 106px;
+    top: 15px;
+  }
+}
