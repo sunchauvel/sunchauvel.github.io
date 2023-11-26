@@ -1,0 +1,36 @@
+{
+  "version": "1.0.23",
+  "pluginName": "意休doit",
+  "description": "处理事项",
+  "author": "Youho",
+  "homepage": "https://gitee.com/kathy_candy",
+	"main": "index.html",
+	"logo": "static/icon.png",
+  "development": {
+      "main": "http://127.0.0.1:8848/doit-utools/index.html"
+  },
+  "preload": "preload.js",
+	"features": [
+		{
+		  "code": "doit",
+		  "explain": "事项处理to do it. [问题记录]-后加问号；[桌面计时]-格式'tt0|提示文本'；[文件夹链接]-自动识别。 ",
+			"cmds":[
+        "dodo","dd","list","doit",
+        {
+          "type": "over",
+          "label": "事项获取/记问题/桌面计时",
+          "exclude": "/$^&/",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        {
+          "type": "files",
+          "label": "文件夹路径添加到自定义链接",
+          "exclude": "directory",
+          "minLength": 1,
+          "maxLength": 1
+        }
+      ]
+		}
+	]
+}

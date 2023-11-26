@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SUNSHYWOO`S BLOG</title>
+    <link>https://sunchauvel.github.io/</link>
+    
+    <image>
+      <url>https://sunchauvel.github.io/icon.png</url>
+      <title>SUNSHYWOO`S BLOG</title>
+      <link>https://sunchauvel.github.io/</link>
+    </image>
+    
+    <atom:link href="https://sunchauvel.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>Keep rush for Beachcomb.</description>
+    <pubDate>Sat, 09 Jul 2022 11:27:36 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>如何从零开始搭建 CI/CD 流水线_DevOps_Saurabh Kulshrestha_InfoQ 精选文章</title>
+      <link>https://sunchauvel.github.io/articles/138341d8.html</link>
+      <guid>https://sunchauvel.github.io/articles/138341d8.html</guid>
+      <pubDate>Mon, 04 Jul 2022 09:28:06 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;在当前 DevOps 的趋势下，持续集成（CI）和持续部署（CD）具有支柱性地位，那么能够成功搭建 CI&amp;#x2F;CD</description>
+          
+        
+      
+      
+      
+      
+      
+      
+      <comments>https://sunchauvel.github.io/articles/138341d8.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Linux命令学习之wc</title>
+      <link>https://sunchauvel.github.io/articles/58ec60d6.html</link>
+      <guid>https://sunchauvel.github.io/articles/58ec60d6.html</guid>
+      <pubDate>Mon, 09 Jul 2018 13:12:11 GMT</pubDate>
+      
+      <description>&lt;h1 id=&quot;Linux-命令学习wc命令&quot;&gt;&lt;a href=&quot;#Linux-命令学习wc命令&quot; class=&quot;headerlink&quot; title=&quot;Linux 命令学习wc命令&quot;&gt;&lt;/a&gt;Linux 命令学习wc命令&lt;/h1&gt;&lt;h2 id=&quot;wc命令&quot;&gt;&lt;a href=&quot;#wc命令&quot; class=&quot;headerlink&quot; title=&quot;wc命令&quot;&gt;&lt;/a&gt;&lt;code&gt;wc&lt;/code&gt;命令&lt;/h2&gt;</description>
+      
+      
+      
+      
+      <category domain="https://sunchauvel.github.io/categories/Linux/">Linux</category>
+      
+      
+      <category domain="https://sunchauvel.github.io/tags/Linux/">Linux</category>
+      
+      <category domain="https://sunchauvel.github.io/tags/command/">command</category>
+      
+      
+      <comments>https://sunchauvel.github.io/articles/58ec60d6.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>

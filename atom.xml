@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SUNSHYWOO`S BLOG</title>
+  <icon>https://sunchauvel.github.io/icon.png</icon>
+  
+  <link href="https://sunchauvel.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://sunchauvel.github.io/"/>
+  <updated>2022-07-09T11:27:36.353Z</updated>
+  <id>https://sunchauvel.github.io/</id>
+  
+  <author>
+    <name>sunshywoo</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何从零开始搭建 CI/CD 流水线_DevOps_Saurabh Kulshrestha_InfoQ 精选文章</title>
+    <link href="https://sunchauvel.github.io/articles/138341d8.html"/>
+    <id>https://sunchauvel.github.io/articles/138341d8.html</id>
+    <published>2022-07-04T09:28:06.000Z</published>
+    <updated>2022-07-09T11:27:36.353Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在当前 DevOps 的趋势下，持续集成（CI）和持续部署（CD）具有支柱性地位，那么能够成功搭建 CI&amp;#x2F;CD</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Linux命令学习之wc</title>
+    <link href="https://sunchauvel.github.io/articles/58ec60d6.html"/>
+    <id>https://sunchauvel.github.io/articles/58ec60d6.html</id>
+    <published>2018-07-09T13:12:11.000Z</published>
+    <updated>2022-07-07T14:35:35.808Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Linux-命令学习wc命令&quot;&gt;&lt;a href=&quot;#Linux-命令学习wc命令&quot; class=&quot;headerlink&quot; title=&quot;Linux 命令学习wc命令&quot;&gt;&lt;/a&gt;Linux 命令学习wc命令&lt;/h1&gt;&lt;h2 id=&quot;wc命令&quot;&gt;&lt;a href=&quot;#wc命令&quot; class=&quot;headerlink&quot; title=&quot;wc命令&quot;&gt;&lt;/a&gt;&lt;code&gt;wc&lt;/code&gt;命令&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://sunchauvel.github.io/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://sunchauvel.github.io/tags/Linux/"/>
+    
+    <category term="command" scheme="https://sunchauvel.github.io/tags/command/"/>
+    
+  </entry>
+  
+</feed>
